@@ -1,4 +1,4 @@
-import './date-input-polyfill.scss';
+import './date-input-polyfill.css';
 import Input from './input.js';
 
 const addPickers = () => {
@@ -21,3 +21,5 @@ document.addEventListener(`DOMContentLoaded`, () => {
 document.querySelector(`body`).addEventListener(`mousedown`, () => {
   addPickers();
 });
+
+export default addPickers
